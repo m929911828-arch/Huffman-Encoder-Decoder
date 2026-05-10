@@ -118,7 +118,7 @@ int main(void)
         case 'P':
         {
             FILE *fcodeprint = fopen("CodeFile.txt", "r");
-            FILE *fdecodeprint = fopen("CodePrint.txt", "r");
+            FILE *fdecodeprint = fopen("CodePrint.txt", "w");
             if (fdecodeprint == NULL)
             {
                 printf("open file error, quit!\n");
